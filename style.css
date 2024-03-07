@@ -37,6 +37,12 @@ a {
     font-size: 30px;
     color: rgb(196, 237, 241);
   }
+  .intro2{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(196, 237, 241);
+  }
+
   .list{
     display: inline-block;
     text-align: left;
@@ -64,3 +70,28 @@ a {
     margin-left: auto;
     margin-right: auto;
   }
+  .circular--portrait { 
+    position: relative; 
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:  20px;
+  } 
+  .circular--portrait img {
+       width: 100%;
+        height: auto;
+        margin-top: -50px;
+  }
+.image {
+  position: relative; 
+  width: 450px; 
+  height: 200px; 
+  overflow: hidden; 
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(83, 83, 83);
+  
+}
